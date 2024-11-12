@@ -51,10 +51,12 @@
 
 [bg storage=hotel-3102375_1280.jpg time=500]
 
-自分に甘えてしまった…
-今日からまた頑張ろう。。。
+自分に甘えてしまった… [l][r]
+今日からまた頑張ろう。。。 [l][r]
 
-【　BAD END 】
+【　BAD END 】[l][cm]
+
+[jump target=*start]
 
 *tag_sleep
 
