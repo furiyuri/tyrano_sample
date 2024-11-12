@@ -1,46 +1,70 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name=美は1日にしてならず"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+「美は１日にしてならず」[l][r]
 
-メロスは激怒した。[l][r]
+今日も疲れた。[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+このままご飯も食べずにベッドに直行してしまおうか。[l][r]
 
-(中略)[l][r]
+いやでも、この前私を振ったアイツを見返してやるって決めたじゃないか！[l][r]
 
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
+今すぐにでも寝たいけど...やらなきゃいけないことはたくさんあるの[l][r]
 
+[link target=*tag_cooking] →ご飯を作る [endlink][r]
 [link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
 [s]
 
-*tag_sleep
+*tag_cooking
 
 [cm]
 
-[bg storage=sleep.jpg time=500]
+[bg storage=spaghetti-1932466_1280.jpg time=500]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+美味しいご飯を食べて心も体もヘルシーになった！[l][r]
+一歩前進！[r]
 
-【 BAD END 】[l][cm]
+[link target=*tag_bath] →このままお風呂に入る [endlink][r]
+[link target=*tag_sleep2] →寝る [endlink][r]
+[s]
+
+*tag_bath
+
+[cm]
+
+[bg storage=bathroom-7899557_1280.jpg time=500]
+
+マッサージもしてスッキリ！ [l][r]
+明日も頑張ろう [r]
+
+【 Good END 】[l][cm]
 
 [jump target=*start]
 
-*tag_run
-
-[bg storage=run.jpg time=500]
+*tag_sleep2
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
 
-【 GOOD END 】[l][cm]
+[bg storage=hotel-3102375_1280.jpg time=500]
+
+自分に甘えてしまった…
+今日からまた頑張ろう。。。
+
+【　BAD END 】
+
+*tag_sleep
+
+[bg storage=hotel-3102375_1280.jpg time=500]
+
+[cm]
+ご飯も食べてない、化粧も落としてないからニキビができた。[l][r]
+こんな自分に嫌気が指す。[l][r]
+もういい、もう一回寝よう。[r]
+
+【 BAD END 】[l][cm]
 
 [jump target=*start]
